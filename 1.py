@@ -19,19 +19,37 @@
 # s2 = 85
 # r =s2-s1
 # print('' % r)
-s1 = input()
-s2 =input()
-weight = float(s2)
-height = float(s1)
-print(height*height)
-ibm = weight/(height*height)
-if ibm <18.5:
-    print('qing')
-elif ibm >=18.5 and ibm <25:
-    print('zhengchang')
-elif ibm >=25 and ibm <28:
-    print('zhong')
-elif ibm >=28 and ibm <32:
-    print('guozhong')
-else:
-    print('fei')
+# s1 = input()
+# s2 =input()
+# weight = float(s2)
+# height = float(s1)
+# # print(height*height)
+# ibm = weight/(height*height)
+# if ibm <18.5:
+#     print('qing')
+# elif ibm >=18.5 and ibm <25:
+#     print('zhengchang')
+# elif ibm >=25 and ibm <28:
+#     print('zhong')
+# elif ibm >=28 and ibm <32:
+#     print('guozhong')
+# else:
+#     print('fei')
+
+
+# sum = 0
+# for x in range(101):
+#     sum = sum + x
+# print(sum)
+
+# L = ['Bart', 'Lisa', 'Adam']
+# for key in L:
+#     print(key)
+
+n = 0 
+while n < 10:
+    n = n + 1
+    if n%2==1:
+        continue
+    print(n)
+print('end')
