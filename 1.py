@@ -46,10 +46,15 @@
 # for key in L:
 #     print(key)
 
-n = 0 
-while n < 10:
-    n = n + 1
-    if n%2==1:
-        continue
-    print(n)
-print('end')
+# n = 0 
+# while n < 10:
+#     n = n + 1
+#     if n%2==1:
+#         continue
+#     print(n)
+# print('end')
+
+
+a = (1, 2, 3)
+d = {'Michael': 95, 'Bob': 75, 'Tracy': 85}
+b = (1, [2, 3])
