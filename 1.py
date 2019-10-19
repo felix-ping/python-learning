@@ -81,3 +81,28 @@ elif quadratic(1, 3, -4) != (1.0, -4.0):
     print('测试失败')
 else:
     print('测试成功')
+
+def trim(s):
+    if s[:1]!=' ':
+        if s[-1:]!=' ':
+            return s
+        else:
+            return trim(s[:-1])
+    else: 
+
+        return trim(s[1:])  
+
+if trim('hello  ') != 'hello':
+    print('测试失败!')
+elif trim('  hello') != 'hello':
+    print('测试失败!')
+elif trim('  hello  ') != 'hello':
+    print('测试失败!')
+elif trim('  hello  world  ') != 'hello  world':
+    print('测试失败!')
+elif trim('') != '':
+    print('测试失败!')
+elif trim('    ') != '':
+    print('测试失败!')
+else:
+    print('测试成功!')
